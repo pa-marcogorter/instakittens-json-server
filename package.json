@@ -14,16 +14,7 @@
   "scripts": {
     "start": "node src/init.js",
     "start:fresh": "node src/init.js --fresh",
-    "watch": "nodemon -x npm run start:fresh",
-    "test": "mocha",
-    "test:watch": "mocha -w",
-    "e2e": "mocha --opts e2e/mocha.opts --exit",
-    "e2e:watch": "mocha --opts e2e/mocha.opts -w",
-    "cucumber": "cucumber-js",
-    "cucumber:watch": "nodemon -e js,feature -x npx cucumber-js --profile watch",
-    "cypress:run": "cypress run",
-    "cypress:watch": "nodemon -e js,feature -x npm run cypress:run",
-    "cypress:open": "cypress open"
+    "watch": "nodemon -x npm run start:fresh"
   },
   "dependencies": {
     "base-64": "^0.1.0",
